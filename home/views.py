@@ -12,3 +12,6 @@ def index(request):
 
     # Page from the theme 
     return render(request, 'pages/dashboard.html', context=context)
+
+def spbi_page(request):
+    return render(request, 'pages/spbi.html')
